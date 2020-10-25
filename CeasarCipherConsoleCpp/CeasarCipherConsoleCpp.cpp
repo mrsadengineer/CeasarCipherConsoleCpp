@@ -5,7 +5,10 @@
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    std::cout << "Ceasar Cipher Console App!\n";
+    std::cout << "Press A to Cipher\n";
+    std::cout << "Press B to Decipher\n";
+        
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
