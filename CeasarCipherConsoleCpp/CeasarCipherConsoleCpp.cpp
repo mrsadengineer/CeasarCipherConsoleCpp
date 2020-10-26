@@ -18,6 +18,7 @@ void processCipher() {
     std::cout << "\n what do you want to encrypt" << std::endl;
 
 std::getline(std::cin, stringtoencrypt);
+std::getline(std::cin, stringtoencrypt);
 
 
     std::cout << "\n here" << std::endl;
