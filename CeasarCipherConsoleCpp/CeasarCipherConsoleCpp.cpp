@@ -2,10 +2,29 @@
 //
 
 #include <iostream>
-
+#include <string>
 int processCommand();
 
+void processCipher() {
+    int offset;
+    std::string stringtoencrypt;
 
+    std::cout << "lets cipher something\n";
+    std::cout << "give the number of offset\n";
+
+
+    std::cin >> offset;
+
+    std::cout << "\n what do you want to encrypt" << std::endl;
+
+std::getline(std::cin, stringtoencrypt);
+
+
+    std::cout << "\n here" << std::endl;
+
+    std::cout << std::endl << stringtoencrypt << std::endl;
+
+}
 
 int main()
 {
@@ -19,7 +38,7 @@ int main()
         switch (whatCommand)
         {
         case 1:
-            std::cout << "lets cipher something\n";
+            processCipher();
             break;
         case 2:
             std::cout << "lets decipher something\n";
