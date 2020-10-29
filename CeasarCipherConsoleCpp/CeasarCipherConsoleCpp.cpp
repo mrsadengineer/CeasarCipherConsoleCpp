@@ -7,11 +7,31 @@ int processCommand();
 
 void beginningWhileLoop();
 
-void proccessCipher(std::string, int);
+void processCipher();
+
+//void printAllCharsFromInt();
+
+
 
 int main()
 {
 	beginningWhileLoop();
+
+
+
+	//char a = 'A';
+
+	//std::cout << (int)a << std::endl;
+
+
+	//a += 28;
+
+
+	//std::cout << a;
+
+
+	//printAllCharsFromInt();
+
 
 
 	return 0;
@@ -31,7 +51,7 @@ void beginningWhileLoop() {
 		switch (whatCommand)
 		{
 		case 1:
-			//processCipher();
+			processCipher();
 			break;
 		case 2:
 			std::cout << "lets decipher something\n";

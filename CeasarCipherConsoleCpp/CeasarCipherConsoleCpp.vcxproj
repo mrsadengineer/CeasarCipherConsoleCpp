@@ -139,6 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="CCPractice.cpp" />
     <ClCompile Include="CeasarCipher.cpp" />
     <ClCompile Include="CeasarCipherConsoleCpp.cpp" />
   </ItemGroup>
