@@ -3,36 +3,22 @@
 
 #include <iostream>
 #include <string>
-int processCommand();
 
+
+int processCommand();
 void beginningWhileLoop();
 
-void processCipher();
 
-//void printAllCharsFromInt();
+
+void processCipher();
+void processDecipher();
+
 
 
 
 int main()
 {
 	beginningWhileLoop();
-
-
-
-	//char a = 'A';
-
-	//std::cout << (int)a << std::endl;
-
-
-	//a += 28;
-
-
-	//std::cout << a;
-
-
-	//printAllCharsFromInt();
-
-
 
 	return 0;
 
@@ -43,7 +29,6 @@ void beginningWhileLoop() {
 
 
 	int whatCommand;
-
 	whatCommand = processCommand();
 
 	while (whatCommand != 3)
@@ -54,7 +39,7 @@ void beginningWhileLoop() {
 			processCipher();
 			break;
 		case 2:
-			std::cout << "lets decipher something\n";
+			processDecipher();
 			break;
 		case 3:
 			std::cout << "should exit\n";

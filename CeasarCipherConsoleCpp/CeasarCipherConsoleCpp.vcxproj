@@ -142,6 +142,7 @@
     <ClCompile Include="CCPractice.cpp" />
     <ClCompile Include="CeasarCipher.cpp" />
     <ClCompile Include="CeasarCipherConsoleCpp.cpp" />
+    <ClCompile Include="CeasarDecipher.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

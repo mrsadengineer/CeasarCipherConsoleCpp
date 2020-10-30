@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string>
 
-
+//void printAllCharsFromInt();
 void printAllCharsFromInt() {
 
 	for (size_t i = 0; i < 127; i++)
@@ -12,3 +12,16 @@ void printAllCharsFromInt() {
 
 }
 
+
+//char a = 'A';
+
+//std::cout << (int)a << std::endl;
+
+
+//a += 28;
+
+
+//std::cout << a;
+
+
+//printAllCharsFromInt();
