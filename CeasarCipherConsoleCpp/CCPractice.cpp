@@ -13,15 +13,12 @@ void printAllCharsFromInt() {
 }
 
 
+
+
+
+
 //char a = 'A';
-
 //std::cout << (int)a << std::endl;
-
-
 //a += 28;
-
-
 //std::cout << a;
-
-
 //printAllCharsFromInt();

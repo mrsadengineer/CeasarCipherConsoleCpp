@@ -13,18 +13,33 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\OOPCeasarCipher">
+      <UniqueIdentifier>{017818c0-560b-4bc7-807f-69b862871f0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ScriptCeasarCipher">
+      <UniqueIdentifier>{923fd260-a09b-4cdc-a0cf-9abc2f5a65d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CLibraryCeasarCipher">
+      <UniqueIdentifier>{dac5a718-cb8d-4cd5-a66e-db2d6db2d9e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BasicCpp">
+      <UniqueIdentifier>{b6862477-7675-4aa6-9b77-7eff6fa46481}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="CeasarCipherConsoleCpp.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="CCPractice.cpp">
+      <Filter>Source Files\BasicCpp</Filter>
     </ClCompile>
     <ClCompile Include="CeasarCipher.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\ScriptCeasarCipher</Filter>
     </ClCompile>
-    <ClCompile Include="CCPractice.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="CeasarCipherConsoleCpp.cpp">
+      <Filter>Source Files\ScriptCeasarCipher</Filter>
     </ClCompile>
     <ClCompile Include="CeasarDecipher.cpp">
+      <Filter>Source Files\ScriptCeasarCipher</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
