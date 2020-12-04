@@ -1,13 +1,7 @@
 #include <iostream>
 #include <string>
+#include "ceasarcypherscript.h"
 
-const int CAPTIAL_A = 65;
-const int CAPITAL_Z = 90;
-
-const int LOWERCASE_A = 97;
-const int LOWERCASE_Z = 122;
-
-void decryptCipher(std::string, int);
 
 void processDecipher() {
 	

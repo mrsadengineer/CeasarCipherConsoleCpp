@@ -42,5 +42,19 @@
     <ClCompile Include="Main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="CeasarCipherClass.cpp">
+      <Filter>Source Files\OOPCeasarCipher</Filter>
+    </ClCompile>
+    <ClCompile Include="OOPCeasarCipherApp.cpp">
+      <Filter>Source Files\OOPCeasarCipher</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ceasarcypherscript.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ceasarcypheroop.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

@@ -141,9 +141,15 @@
   <ItemGroup>
     <ClCompile Include="CCPractice.cpp" />
     <ClCompile Include="CeasarCipher.cpp" />
+    <ClCompile Include="CeasarCipherClass.cpp" />
     <ClCompile Include="CeasarCipherConsoleCpp.cpp" />
     <ClCompile Include="CeasarDecipher.cpp" />
     <ClCompile Include="Main.cpp" />
+    <ClCompile Include="OOPCeasarCipherApp.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ceasarcypheroop.h" />
+    <ClInclude Include="ceasarcypherscript.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

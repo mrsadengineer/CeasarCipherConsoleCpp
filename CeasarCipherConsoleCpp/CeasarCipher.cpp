@@ -3,13 +3,9 @@
 
 
 
+#include "ceasarcypherscript.h"
 
-const int CAPTIAL_A = 65;
-const int CAPITAL_Z = 90;
 
-const int LOWERCASE_A = 97;
-const int LOWERCASE_Z = 122;
-void encryptCipher(std::string, int);
 
 void processCipher() {
 	int offset;
