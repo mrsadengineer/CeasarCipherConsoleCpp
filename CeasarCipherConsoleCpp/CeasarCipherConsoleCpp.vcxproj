@@ -142,12 +142,12 @@
     <ClCompile Include="CCPractice.cpp" />
     <ClCompile Include="CeasarCipher.cpp" />
     <ClCompile Include="CeasarCipherClass.cpp" />
-    <ClCompile Include="CeasarCipherConsoleCpp.cpp" />
+    <ClCompile Include="CeasarCipherInterativeScript.cpp" />
     <ClCompile Include="CeasarDecipher.cpp" />
-    <ClCompile Include="Main.cpp" />
-    <ClCompile Include="OOPCeasarCipherApp.cpp" />
+    <ClCompile Include="CeasarCipherApp.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="CeasarCipherAppGlobal.h" />
     <ClInclude Include="ceasarcypheroop.h" />
     <ClInclude Include="ceasarcypherscript.h" />
   </ItemGroup>

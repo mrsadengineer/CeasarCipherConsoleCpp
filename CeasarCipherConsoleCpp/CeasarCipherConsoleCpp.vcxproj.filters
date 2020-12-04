@@ -33,20 +33,17 @@
     <ClCompile Include="CeasarCipher.cpp">
       <Filter>Source Files\ScriptCeasarCipher</Filter>
     </ClCompile>
-    <ClCompile Include="CeasarCipherConsoleCpp.cpp">
-      <Filter>Source Files\ScriptCeasarCipher</Filter>
-    </ClCompile>
     <ClCompile Include="CeasarDecipher.cpp">
       <Filter>Source Files\ScriptCeasarCipher</Filter>
-    </ClCompile>
-    <ClCompile Include="Main.cpp">
-      <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="CeasarCipherClass.cpp">
       <Filter>Source Files\OOPCeasarCipher</Filter>
     </ClCompile>
-    <ClCompile Include="OOPCeasarCipherApp.cpp">
-      <Filter>Source Files\OOPCeasarCipher</Filter>
+    <ClCompile Include="CeasarCipherInterativeScript.cpp">
+      <Filter>Source Files\ScriptCeasarCipher</Filter>
+    </ClCompile>
+    <ClCompile Include="CeasarCipherApp.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -54,6 +51,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="ceasarcypheroop.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CeasarCipherAppGlobal.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

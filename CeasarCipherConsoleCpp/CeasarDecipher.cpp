@@ -4,7 +4,6 @@
 
 
 void processDecipher() {
-	
 	int offset;
 	std::string stringToDecrypt;
 
@@ -12,27 +11,19 @@ void processDecipher() {
 	std::cout << "give the number of offset. (1-26)\n";
 	std::cin >> offset;
 	std::cout << "\n what do you want to decrypt\n" << std::endl;
-
 	std::getline(std::cin, stringToDecrypt);
 	std::getline(std::cin, stringToDecrypt);
-
 	decryptCipher(stringToDecrypt, offset);
-
-
 	std::cout << std::endl << stringToDecrypt << std::endl;
-
 }
 
 
 void decryptCipher(std::string toCipher, int offset) {
 	std::string newEncrytpedString;
-
 	if (offset >= 1 && offset <= 26) {
-
 		for (size_t i = 0; i < toCipher.length(); i++)
 		{
 			char letter = toCipher.at(i);
-
 			if (isupper(letter))
 			{
 				letter -= offset;
@@ -49,16 +40,13 @@ void decryptCipher(std::string toCipher, int offset) {
 					letter += 26;
 				}
 			}
-						newEncrytpedString.append(1, (char)letter);
-					}
+			newEncrytpedString.append(1, (char)letter);
+		}
 	}
 	else {
 		std::cout << "the offset is out of bound" << std::endl;
 	}
-	
 	std::cout << "your encrypted string is as follow: \n";
 	std::cout << newEncrytpedString << std::endl;
-
-
 };
 

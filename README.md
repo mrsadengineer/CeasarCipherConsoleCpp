@@ -3,14 +3,18 @@
  
  
  Todo:  
- -read and write to files with encryption.   
- -may move to c implementation because I am not using classes  
- -create implementation using classes and recursion  
+-[ ] fix cipher: app is not encrypting or decyrpting special characters. (create bug?)     
+-[ ] read and write to files with ceasar encryption.    
+-[X] implement working script for encrypting and decrypting strings in a console  
+-[X] implement OOP classes in Cpp  
+-[ ] and recursion centric functions for OOP  
+-[ ] create c implementation and use library.   
+-[ ] create first test  
 
 
 
 ## Introduction - the project's aim  
-App to practice developing a ceasar cipher for the programming language of cpp.     
+Cpp App to practice and to familarlize myself with cryptology. The first cipher to study is the ceasar cipher.  
 
 ## Technologies
 Project is created with:  
@@ -24,8 +28,9 @@ Setting up working enviroment. (in progress)
 
    
 
-## Sources
-
+## Sources  
+for understanding recurision  
+https://www.youtube.com/watch?v=2mIERXU7wWY&list=PLGLfVvz_LVvQ9S8YSV0iDsuEU8v11yP9M  
 
 ## Scope of functionalities
 basic functions  

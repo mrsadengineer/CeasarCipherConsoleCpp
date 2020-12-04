@@ -2,7 +2,7 @@
 #include "ceasarcypheroop.h"//iostream //string
 
 int processCommandForOPP();
-void beginningWhileLoopforOop();
+//void beginningWhileLoopforOop();
 
 CeasarCipherClass::CeasarCipherClass()
 {
@@ -138,7 +138,7 @@ inline void CeasarCipherClass::encryptCipher(std::string toCipher, int offset)
 
 }
 
-void beginningWhileLoopforOop() {
+void CeasarCipherClass::beginningWhileLoopforOop() {
 
 
 	int whatCommand;
@@ -149,9 +149,11 @@ void beginningWhileLoopforOop() {
 		switch (whatCommand)
 		{
 		case 1:
+			this->processCipher();
 			//processCipher();
 			break;
 		case 2:
+			this->processDecipher();
 			//processDecipher();
 			break;
 		case 3:
